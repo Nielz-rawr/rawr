@@ -1,0 +1,247 @@
+/* ===== RESET & GLOBAL ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #1f2937;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  color: #ffffff;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header b {
+  font-size: 20px;
+}
+
+header a {
+  color: #ffffff;
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background-color: #ffffff;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* ===== FORM ===== */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ===== BUTTON ===== */
+button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* ===== BADGE ===== */
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #e0e7ff;
+  color: #1e3a8a;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-left: 6px;
+}
+
+/* ===== LINK ===== */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  height: 80vh;
+  background-image: url('../assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  color: #ffffff;
+  max-width: 600px;
+  padding: 0 40px;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.login-card {
+  max-width: 400px;
+  margin: 60px auto;
+}
+
+.login-card h2 {
+  margin-bottom: 5px;
+}
+
+.login-card label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.error-box {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+  gap:20px
+}
+.business-card h3{margin:0 0 10px}
+.desc{font-size:14px;color:#6b7280}
+.btn{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 15px;
+  background:#2563eb;
+  color:#fff;
+  text-decoration:none;
+  border-radius:6px;
+  text-align:center
+}
+.whatsapp{background:#16a34a}
+.item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 0;
+  border-bottom:1px solid #e5e7eb
+}
+.price{font-weight:bold}
+
+.badge{
+  display:inline-block;
+  background:#e0e7ff;
+  color:#1e40af;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:13px
+}
